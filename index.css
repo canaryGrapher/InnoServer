@@ -67,6 +67,14 @@
   min-height: 50vh;
 }
 
+.main-holder {
+  width: 75%;
+}
+
+.sub-holder {
+    width: 50%;
+}
+
 @media only screen and (max-width: 576px) {
   .second-page {
     min-height: 80vw;
@@ -90,5 +98,11 @@
   .haandz {
     height: 100px;
     width: 100vw;
+  }
+  .main-holder {
+    width: 100%;
+  }
+  .sub-holder {
+      width: 100%;
   }
 }
