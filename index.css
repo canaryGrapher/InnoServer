@@ -1,0 +1,94 @@
+.first-page {
+  min-height: 100vh;
+  background-image: url("./resources/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 900;
+}
+
+.login-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.second-page {
+  min-height: 100vh;
+}
+
+.paragraph-introduction {
+  width: 65%;
+}
+
+.feature-list,
+.feature-list-2 {
+  width: 80%;
+}
+
+.feature-list .card {
+  text-align: center;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 20px 20px 60px #4e4e4e;
+  height: 150px;
+}
+
+.third-page {
+  min-height: 100vh;
+  background: #8e0e00;
+  border-width: 100;
+  background: -webkit-linear-gradient(to right, #1f1c18, #8e0e00);
+  background: linear-gradient(to right, #1f1c18, #8e0e00);
+}
+
+.feature-para {
+  width: 50%;
+}
+
+.feature-list-2 .card {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #ffffff;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 15px 15px;
+}
+
+.fourth-page {
+  min-height: 60vh;
+}
+
+#FAQsAccordian {
+  width: 75%;
+  margin: 10px auto;
+}
+
+.fifth-page {
+  min-height: 50vh;
+}
+
+@media only screen and (max-width: 576px) {
+  .second-page {
+    min-height: 80vw;
+  }
+
+  .paragraph-introduction {
+    width: 100%;
+  }
+
+  .feature-list,
+  .feature-list-2 {
+    width: 100%;
+  }
+  .feature-para {
+    width: 95%;
+  }
+  #FAQsAccordian {
+    width: 95%;
+    margin: 10px auto;
+  }
+  .haandz {
+    height: 100px;
+    width: 100vw;
+  }
+}
